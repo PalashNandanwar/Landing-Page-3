@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,900;1,300&family=Open+Sans:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    padding: 45px 35px;
+    justify-content: flex-start;
+    gap: 75%;
+}
+
+#logo {
+    margin-left: 150px;
+}
+
+#logo img {
+    width: 50px;
+    height: 70px;
+}
+
+#back {
+    position: relative;
+}
+
+#back #about {
+    top: -150px;
+    left: 17%;
+    position: absolute;
+    text-align: center;
+    font-size: 300px;
+    font-weight: bolder;
+    z-index: -1;
+    color:rgba(231, 222, 222, 0.936);
+}
+
+section {
+    display: flex;
+    width: 100%;
+    margin: 30px 180px;
+}
+
+.image {
+    overflow: hidden;
+}
+
+.image #img2 {
+    height: 450px;
+    width: 350px;
+    object-fit: cover;
+}
+
+#writing #heading {
+    font-size: 45px;
+    margin-left: 120px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#main p {
+    margin-left: 95px;
+    font-size: 20px;
+    text-align: center;
+    /* background: red; */
+    height: 150px;
+    width: 800px;
+}
+
+#writing #links ul {
+    top: 3%;
+    /* margin-top: 50px; */
+    margin-left: 120px;
+    display: flex;
+    gap: 7px;
+}
+
+#writing #links ul a {
+    height: 40px;
+    background: rgba(10, 73, 83, 0.616);
+    width: 40px;
+    line-height: 40px;
+    border: none;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    color: black;
+    gap: 30px;
+    font-size: 27px;
+    transition: 0.5 ease;
+}
+
+#writing #links ul a:hover {
+    border: 1px solid rgb(0, 0, 0);
+    background: none;
+}
+
+#writing button {
+    margin: 35px 120px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid rgb(107, 104, 93);
+}
+
+#writing button:hover {
+    background: #000;
+    color: white;
+    border-radius: 30px;
+}
+
+.image:hover #img2 {
+    scale: 1.5;
+}

@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "button-type": "on",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "on"
+      }
+    ]
+  }
+}
